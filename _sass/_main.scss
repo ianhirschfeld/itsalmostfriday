@@ -1,0 +1,97 @@
+/* https://coolors.co/07668c-077e8e-08a898-17c6a0-e2e5bc */
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #08a898;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.page-background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#08a898+0,077e8e+100 */
+  background: #08a898; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #08a898 0%, #077e8e 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #08a898 0%,#077e8e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #08a898 0%,#077e8e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08a898', endColorstr='#077e8e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.page-container {
+  position: relative;
+  z-index: 2;
+}
+
+.page-header {
+  padding: 36px;
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 2.5rem;
+}
+
+.page-subtitle {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.almost {
+  &.is-i {
+    font-style: italic;
+  }
+}
+
+.page-content {
+  padding-bottom: 36px;
+  text-align: center;
+}
+
+.countdown {
+  margin-bottom: 72px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+}
